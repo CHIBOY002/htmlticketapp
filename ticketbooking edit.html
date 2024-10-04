@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="./ticket.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="ticket">
+        <h1>Ticket Booking</h1>
+        <form action="" id="Purchaseform">
+          <label for="">Name</label>
+          <input type="text" name="" id="" placeholder="Name" /><br />
+          <br />
+
+          <select name="" id="">
+            <option value="">No of Tickets</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option></select
+          ><br /><br />
+
+          <select name="" id="">
+            <option value="">No of sit</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option></select
+          ><br /><br />
+
+          <label for="">Time</label><br />
+          <input type="time" name="" id=""/><br />
+          <br />
+
+          <label for="">Date</label>
+          <input type="date" name="" id=""><br>
+          <br>
+
+
+          <label for="">Male</label>
+          <input type="radio" name="option" id=""/><br>
+
+
+          <label for="">Female</label>
+          <input type="radio" name="option" id="" /><br>
+          <br>
+
+          <input class="movie" type="text" placeholder="Movie Title" /><br />
+          <br />
+
+          <input class="button" type="submit" value="Purchase Ticke">
+        </form>
+      </div>
+    </div>
+    <script>
+      document.getElementById("Purchaseform").onsubmit = function () {
+        alert("Ticket Processing");
+      };
+    </script>
+  </body>
+</html>
